@@ -112,7 +112,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1030,
         "fields": {
             "priority": 10,
-            "description": "Do you stand by your statements that there will be absolutely no cuts to Social Security or Medicare under a Trump Administration?",
+            "description": "Ruth Bader Ginsburg, long-time liberal Supreme Court justice, has passed away at age 87, giving you the chance to appoint a third Supreme Court justice. Are you planning to choose anyone right now to replace her?",
             "likelihood": 1
         }
     },
@@ -184,7 +184,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1033,
         "fields": {
             "priority": -4,
-            "description": "A video surfaced of you describing how you tried to seduce a married woman, and how you can generally kiss women or \"grab them by the pussy\". 14 women have also stepped forward to accuse you of assault. What is your response?",
+            "description": "The Tim Ryan campaign released an attack ad about your past infidelity controversies, including your affair with Mildred Baena. How will you respond to this ad?",
             "likelihood": 1
         }
     },
@@ -696,7 +696,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5101,
         "fields": {
             "question": 1030,
-            "description": "We're going to take care of people when I'm President. Absolutely no cuts to Social Security and Medicare. We have millions and millions of people relying on these programs."
+            "description": "We need to bring the power to the people, and that is what democracy is all about. I will let the people decide the next Supreme Court justice when they vote for President and Congress in November. That was RBG's wish as well, so we need to honor that."
         }
     },
     {
@@ -704,7 +704,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5102,
         "fields": {
             "question": 1030,
-            "description": "You know, sometimes if the program grows by 4%, and then you do something and you don't even know you did something, especially when it's a Republican, and the program grows by 3.8%. The liberal media loves to call that a \"cut\"."
+            "description": "I have Margaret Sweeney in mind, who has served diligently in the Court of Federal Claims for the last fifteen years. I think we should have a good, well-qualified woman in the Supreme Court."
         }
     },
     {
@@ -712,7 +712,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5111,
         "fields": {
             "question": 1033,
-            "description": "This outrage is an elitist conspiracy to undermine my chances in the final days of this race. NBC was sitting on this video for 11 years! It almost reminds you of what they did to Bush in 2000."
+            "description": "These are issues that have already been addressed, even during the 2016 campaign and before that. I will not make any further statement on these issues, and focus on the issues affecting the people."
         }
     },
     {
@@ -720,15 +720,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5112,
         "fields": {
             "question": 1033,
-            "description": "I said some things in a private conversation that I shouldn't have, but think about what's at stake in this election. And think about all the times that Hillary Clinton helped her husband abuse and silence women."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 5113,
-        "fields": {
-            "question": 1033,
-            "description": "It's not often that I feel shame. People who know me can agree. But I am very sorry for the way I acted in this situation, and we can't allow one ill-advised conversation to derail the entire future of the United States."
+            "description": "Consider that a divorce! I'm born to be bad."
         }
     },
     {
@@ -6863,8 +6855,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 5111,
             "candidate": 200,
-            "affected_candidate": 202,
-            "global_multiplier": 0.05
+            "affected_candidate": 200,
+            "global_multiplier": -0.004
         }
     },
     {
@@ -6873,18 +6865,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 5112,
             "candidate": 200,
-            "affected_candidate": 202,
-            "global_multiplier": 0.05
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3180,
-        "fields": {
-            "answer": 5113,
-            "candidate": 200,
-            "affected_candidate": 202,
-            "global_multiplier": 0.05
+            "affected_candidate": 200,
+            "global_multiplier": -0.07
         }
     },
     {
@@ -7246,6 +7228,36 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 202,
             "global_multiplier": -0.25
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20714,
+        "fields": {
+            "answer": 5101,
+            "candidate": 200,
+            "affected_candidate": 200,
+            "global_multiplier": 0.007
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20715,
+        "fields": {
+            "answer": 5101,
+            "candidate": 200,
+            "affected_candidate": 202,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20717,
+        "fields": {
+            "answer": 5112,
+            "candidate": 200,
+            "affected_candidate": 202,
+            "global_multiplier": -0.05
+        }
     }
 ]
 
@@ -7557,26 +7569,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 5100,
             "issue": 100,
             "issue_score": 0,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2610,
-        "fields": {
-            "answer": 5101,
-            "issue": 100,
-            "issue_score": -0.2,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2611,
-        "fields": {
-            "answer": 5102,
-            "issue": 100,
-            "issue_score": -0.575,
             "issue_importance": 1
         }
     },
@@ -7945,7 +7937,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 20708,
         "fields": {
             "answer": 5031,
-            "issue": "100",
+            "issue": 100,
             "issue_score": -0.35,
             "issue_importance": 5
         }
@@ -7957,6 +7949,16 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 5032,
             "issue": 104,
             "issue_score": -0.85,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 20716,
+        "fields": {
+            "answer": 5111,
+            "issue": "100",
+            "issue_score": -0.75,
             "issue_importance": 5
         }
     }
@@ -8805,7 +8807,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5101,
             "candidate": 200,
-            "answer_feedback": "You've broken a bit with orthodoxy on this issue, but your stance is popular."
+            "answer_feedback": "Conservative Republicans are displeased with this statement, but it's one that moderates and mainstream voters can swallow."
         }
     },
     {
@@ -8814,7 +8816,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5102,
             "candidate": 200,
-            "answer_feedback": "You may have a point, but there's no reason to back away from supporting a popular program in the midst of a campaign."
+            "answer_feedback": "Margaret Sweeney was frequently brought up as a candidate for the Supreme Court, and she is a popular one among Republicans. However, many of your supporters wished you would wait until after the election."
         }
     },
     {
@@ -8823,7 +8825,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5111,
             "candidate": 200,
-            "answer_feedback": "There's not much you can do but apologize and deflect, but supporters admire your pugnacious spirit in response to this."
+            "answer_feedback": "Even though the MeToo movement comes out in full force for Ryan, this is a no-harm, no-foul situation."
         }
     },
     {
@@ -8832,16 +8834,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5112,
             "candidate": 200,
-            "answer_feedback": "There's not much you can do but apologize and deflect, but polls are definitely swinging towards Hillary Clinton in the aftermath of this video."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2597,
-        "fields": {
-            "answer": 5113,
-            "candidate": 200,
-            "answer_feedback": "There's not much you can do but apologize and deflect, but polls are definitely swinging towards Hillary Clinton in the aftermath of this video."
+            "answer_feedback": "If you say so, Mr. President. Are you really trying to get Donald Trump's endorsement here?"
         }
     },
     {
