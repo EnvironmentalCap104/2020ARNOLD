@@ -67,7 +67,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1009,
         "fields": {
             "priority": 5,
-            "description": "In the wake of your nomination, a few anti-Trump conservatives are organizing to cast votes for Evan McMullin as a protest, with an emphasis on the Western states. What are your thoughts?",
+            "description": "Like you did in your first campaign four years ago, do you plan to make any comparisons to former President Reagan and his presidency?",
             "likelihood": 1
         }
     },
@@ -76,7 +76,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1038,
         "fields": {
             "priority": 8,
-            "description": "Pundits have started questioning the so-called Pence Rule, based on your running-mate's refusal to dine alone with a woman. What are your thoughts?",
+            "description": "Would you support emergency economic legislation that will help everyday Americans struggling during the COVID-19 pandemic and economic turmoil caused by it?",
             "likelihood": 1
         }
     },
@@ -121,7 +121,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1027,
         "fields": {
             "priority": 10,
-            "description": "To what extent will you attack Hillary Clinton for the foreign donations she has taken for the Clinton Foundation, often from Middle Eastern sources. Or, also, for her paid speeches from Goldman Sachs?",
+            "description": "There has been a lot of civil unrest in Kenosha, Wisconsin after the death of Jacob Blake by a police officer. 17-year-old Kyle Rittenhouse shot three people during all of this. What are your thoughts on this?",
             "likelihood": 1
         }
     },
@@ -130,7 +130,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1016,
         "fields": {
             "priority": 10,
-            "description": "Are there any personal attacks you would like to throw at Bill and Hillary Clinton over the next few months?",
+            "description": "Are there any attacks you would like to throw at Tim Ryan during the election campaign?",
             "likelihood": 1
         }
     },
@@ -166,7 +166,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1025,
         "fields": {
             "priority": -6,
-            "description": "While attending a 9/11 memorial event today, Hillary Clinton was caught on video going limp and being carried into a van, apparently for medical attention. Do you have any comment?",
+            "description": "There have been a lot of discussions about potentially sending troops out of Afghanistan. Do you support these proposals?",
             "likelihood": 1
         }
     },
@@ -416,7 +416,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5040,
         "fields": {
             "question": 1014,
-            "description": "This is just petty politicking from the Democrats because they are just mad that there is a conservative Supreme Court. "
+            "description": "This is just petty politicking from the Democrats because they are just mad that there is a conservative Supreme Court. The Supreme Court size is fine how it is, time for you to chill out."
         }
     },
     {
@@ -424,7 +424,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5041,
         "fields": {
             "question": 1014,
-            "description": "You better believe under my Administration, we're going to be focusing on America first, and not on these idiotic wars and trade deals. Do you think Hillary Clinton feels the same way?"
+            "description": "No comment. I did nothing, the pavement was his enemy!"
         }
     },
     {
@@ -432,15 +432,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5042,
         "fields": {
             "question": 1014,
-            "description": "Hillary Clinton keeps saying that I'm unqualified to serve as President, so what was going on her brain when she voted for the war in Iraq?"
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 5043,
-        "fields": {
-            "question": 1014,
-            "description": "The political establishment on both sides got it dead wrong on Iraq. And now we have ISIS. I am the candidate who can destroy ISIS and radical Islamic terrorism!"
+            "description": "No problemo. I will work with them on this issue, and expand the size of the Supreme Court to 12 justices."
         }
     },
     {
@@ -632,7 +624,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5090,
         "fields": {
             "question": 1027,
-            "description": "The Russians gave her $2 million. The Saudis, the Arabs, they gave her a lot. Millions from the Bank of Switzerland and Deutsche Bank. It's all about the charity, right?"
+            "description": "My hearts and prayers go out to the families of the victims, including Jacob Blake's. I will visit Kenosha to pay my respects."
         }
     },
     {
@@ -640,7 +632,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5091,
         "fields": {
             "question": 1027,
-            "description": "This whole situation with the Clinton Foundation really should be against the law. You have foreign governments giving this charity millions of dollars, and that's supposed to have no effect on her Presidency?"
+            "description": "I will condemn the police officer that killed Jacob Blake, as well as Kyle Rittenhouse. They are perpetrators of violence, anger, and division, which is never acceptable anywhere in this country and this world."
         }
     },
     {
@@ -648,7 +640,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5092,
         "fields": {
             "question": 1027,
-            "description": "If Hillary wants to go around claiming that we're corrupt somehow, I think there's more than enough ammunition here to fight back."
+            "description": "Rittenhouse was doing it to save the local businesses and the people of Kenosha. What is the point of being on this Earth if you are going to be like everyone else and avoid trouble? He has to say \"Hasta la vista, baby\" and terminate the rioters."
         }
     },
     {
@@ -800,7 +792,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5127,
         "fields": {
             "question": 1038,
-            "description": "Can you really blame Mike in this day and age? One false accusation or misinterpreted statement, and suddenly your entire career can be at risk."
+            "description": "Government’s first duty and highest obligation is public safety. I will absolutely pursue this, and we will give stimulus checks to the middle-class. The more spending, the better our economy will get."
         }
     },
     {
@@ -808,7 +800,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5128,
         "fields": {
             "question": 1038,
-            "description": "Maybe if Bill Clinton and some other people I can think of would have followed this common-sense recommendation, their lives would have been much simpler."
+            "description": "This is what I'm going to tell Congress: Help others and give something back. I guarantee you will discover that while public service improves the lives and the world around you, its greatest reward is the enrichment and new meaning it will bring to your own life."
         }
     },
     {
@@ -816,7 +808,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5129,
         "fields": {
             "question": 1038,
-            "description": "I understand some of the issues with this. Nobody respects women more than I do, but at the same time, I have an absolutely tremendous amount of respect for Mike Pence."
+            "description": "Congress is too divided, and I don't do requests. I can't do this at this time."
         }
     },
     {
@@ -6532,7 +6524,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5090,
             "candidate": 200,
             "affected_candidate": 200,
-            "global_multiplier": 0.00075
+            "global_multiplier": 0.005
         }
     },
     {
@@ -6542,7 +6534,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5092,
             "candidate": 200,
             "affected_candidate": 200,
-            "global_multiplier": -0.002
+            "global_multiplier": -0.2
         }
     },
     {
@@ -6622,7 +6614,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5127,
             "candidate": 200,
             "affected_candidate": 200,
-            "global_multiplier": -0.0021
+            "global_multiplier": 0.012
         }
     },
     {
@@ -6632,7 +6624,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5128,
             "candidate": 200,
             "affected_candidate": 200,
-            "global_multiplier": -0.0016
+            "global_multiplier": 0.02
         }
     },
     {
@@ -6642,7 +6634,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5129,
             "candidate": 200,
             "affected_candidate": 200,
-            "global_multiplier": -0.0016
+            "global_multiplier": -0.15
         }
     },
     {
@@ -6891,8 +6883,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 5090,
             "candidate": 200,
-            "affected_candidate": 201,
-            "global_multiplier": -0.002
+            "affected_candidate": 202,
+            "global_multiplier": -0.05
         }
     },
     {
@@ -7224,6 +7216,26 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 202,
             "global_multiplier": -0.1
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20723,
+        "fields": {
+            "answer": 5040,
+            "candidate": 200,
+            "affected_candidate": 200,
+            "global_multiplier": -0.003
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20725,
+        "fields": {
+            "answer": 5042,
+            "candidate": 200,
+            "affected_candidate": 200,
+            "global_multiplier": -0.08
+        }
     }
 ]
 
@@ -7236,46 +7248,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 100,
             "issue_score": -0.45,
             "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2528,
-        "fields": {
-            "answer": 5040,
-            "issue": 102,
-            "issue_score": 0.2,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2529,
-        "fields": {
-            "answer": 5041,
-            "issue": 102,
-            "issue_score": 0.2,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2530,
-        "fields": {
-            "answer": 5042,
-            "issue": 102,
-            "issue_score": 0.2,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2531,
-        "fields": {
-            "answer": 5043,
-            "issue": 102,
-            "issue_score": -0.3,
-            "issue_importance": 1
         }
     },
     {
@@ -7533,9 +7505,9 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 2626,
         "fields": {
             "answer": 5128,
-            "issue": 103,
-            "issue_score": -0.65,
-            "issue_importance": 1
+            "issue": 101,
+            "issue_score": 0.25,
+            "issue_importance": 5
         }
     },
     {
@@ -7750,16 +7722,6 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 2811,
-        "fields": {
-            "answer": 5041,
-            "issue": 101,
-            "issue_score": 0.6,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
         "pk": 2813,
         "fields": {
             "answer": 5070,
@@ -7905,6 +7867,56 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 5111,
             "issue": 100,
             "issue_score": -0.75,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 20726,
+        "fields": {
+            "answer": 5127,
+            "issue": 101,
+            "issue_score": 0,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 20727,
+        "fields": {
+            "answer": 5127,
+            "issue": 104,
+            "issue_score": 0,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 20728,
+        "fields": {
+            "answer": 5128,
+            "issue": 104,
+            "issue_score": 0.1,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 20733,
+        "fields": {
+            "answer": 5091,
+            "issue": 103,
+            "issue_score": 0,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 20734,
+        "fields": {
+            "answer": 5092,
+            "issue": 103,
+            "issue_score": -0.95,
             "issue_importance": 5
         }
     }
@@ -8229,6 +8241,39 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 200,
             "state_multiplier": 0.005
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20730,
+        "fields": {
+            "answer": 5090,
+            "state": 1049,
+            "candidate": 200,
+            "affected_candidate": 200,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20732,
+        "fields": {
+            "answer": 5091,
+            "state": 1049,
+            "candidate": 200,
+            "affected_candidate": 200,
+            "state_multiplier": 0.004
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20735,
+        "fields": {
+            "answer": 5092,
+            "state": 1049,
+            "candidate": 200,
+            "affected_candidate": 200,
+            "state_multiplier": -0.05
+        }
     }
 ]
 
@@ -8446,7 +8491,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5040,
             "candidate": 200,
-            "answer_feedback": "This is a bit of a sore point among much of the left."
+            "answer_feedback": "Mainstream voters agree with this sentiment, but liberals are still mad at you about your Supreme Court appointments. Could this be a liability for your re-election?"
         }
     },
     {
@@ -8455,7 +8500,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5042,
             "candidate": 200,
-            "answer_feedback": "This is a bit of a sore point among much of the left."
+            "answer_feedback": "I live to see you eat that contract, but I hope you leave enough room for my fist."
         }
     },
     {
@@ -8626,7 +8671,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5090,
             "candidate": 200,
-            "answer_feedback": "Anytime you can mention Hillary Clinton and Goldman Sachs in the same sentence, it's a win for you."
+            "answer_feedback": "This is a good, nonpolitical response to this answer. While you're at it, you get some campaigning done in Wisconsin, giving you a good boost there."
         }
     },
     {
@@ -8635,7 +8680,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5091,
             "candidate": 200,
-            "answer_feedback": "There are legitimate concerns about the Clinton Foundation. Are your conflicts of interest any less concerning? This is the immediate counterattack from Dems."
+            "answer_feedback": "I hope they leave enough room for my fist because I’m going to ram it into their stomach and break their goddamn spines!"
         }
     },
     {
@@ -8644,7 +8689,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5092,
             "candidate": 200,
-            "answer_feedback": "There's no reason not to take an opportunity when you're given one."
+            "answer_feedback": "Why the hell are you commending a shooter? Maybe I know why, because you are The Terminator. "
         }
     },
     {
@@ -8815,7 +8860,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5127,
             "candidate": 200,
-            "answer_feedback": "The level of Mike Pence's social conservatism is certainly more than most Americans are familiar with."
+            "answer_feedback": "This is a broadly popular position considering the severity of the pandemic, although it is not one that Republicans would normally take."
         }
     },
     {
@@ -8824,7 +8869,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5128,
             "candidate": 200,
-            "answer_feedback": "The level of Mike Pence's social conservatism is certainly more than most Americans are familiar with."
+            "answer_feedback": "Congressmen from both members stand up, cheering and clapping. They immediately take action to introduce monthly stimulus checks to every American. This should help you a lot during this time."
         }
     },
     {
@@ -8833,7 +8878,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5129,
             "candidate": 200,
-            "answer_feedback": "The level of Mike Pence's social conservatism is certainly more than most Americans are familiar with."
+            "answer_feedback": "Way to throw many of your supporters under the bus. Some people depended on legislation like this. "
         }
     },
     {
@@ -8870,6 +8915,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 5065,
             "candidate": 200,
             "answer_feedback": "You know exactly what's going to happen, Arnold. Trump supporters like this, most Americans don't."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 20724,
+        "fields": {
+            "answer": 5041,
+            "candidate": 200,
+            "answer_feedback": "Maybe it's good to lay low on this. Expanding the Supreme Court is not a major issue in this campaign anyway."
         }
     }
 ]
