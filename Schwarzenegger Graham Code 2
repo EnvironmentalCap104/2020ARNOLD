@@ -7807,7 +7807,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 20747,
         "fields": {
             "answer": 5048,
-            "issue": "100",
+            "issue": 100,
             "issue_score": -0.35,
             "issue_importance": 5
         }
@@ -7857,7 +7857,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 20763,
         "fields": {
             "answer": 5033,
-            "issue": "100",
+            "issue": 100,
             "issue_score": -0.55,
             "issue_importance": 4
         }
@@ -7867,7 +7867,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 20765,
         "fields": {
             "answer": 5034,
-            "issue": "100",
+            "issue": 100,
             "issue_score": -0.25,
             "issue_importance": 5
         }
@@ -8943,6 +8943,54 @@ campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/9rIREaP.png";
 campaignTrail_temp.candidate_last_name = "<small>Schwarzenegger</small>";
 campaignTrail_temp.running_mate_last_name = "Graham";
 
+campaignTrail_temp.multiple_endings = true;
+endingPicker = (out, totv, aa, quickstats) => {
+
+    function setImage(url) {
+        if(url == '' || url == null) return;
+        let interval = setInterval(function () {
+            img = document.getElementsByClassName("person_image")[0];
+            if (img != null) {
+                img.src = url;
+                clearInterval(interval);
+            }
+        }, 50);
+    }
+
+    if(quickstats[0] == 0) {
+        setImage("https://i.imgur.com/aZk5lCn.png");
+        return `<h3>God damnit, Arnold. </h3><p>This is why you can't force the American people to buy your movies. They will call you an authoritarian, and that is why you lost every single state in this country. <p><p>You are a damn idiot. Although you may have helped the economy by doing something this stupid, it basically killed your political career, and likely your Hollywood career as well. You have lost so much support and trust from all walks of life, and your own ex-wife, Maria Shriver, has sent you a cease-and-desist letter after this. <p><p>So you get nothing, you lose, good day sir!`;
+    }
+    if(quickstats[0] > 0 && quickstats[0] < 169) {
+        setImage("");
+        return `<h3>I did nothing, the pavement was his enemy!</h3><p>This is a result that I doubt anyone expected. Most thought you were a popular enough president to defeat Tim Ryan in spite of losing 10% of your party to Donald Trump's candidacy. But no, you lost. Even worse than George HW Bush in 1992. <p><p>Most are blaming this on the vote-splitting from Trump's candidacy, in a very similar fashion to Ross Perot screwing over George HW Bush 28 years ago. But as for you, you can stay on the sidelines, live a peaceful retirement, or try to terminate Tim Ryan to get your job back in four years. The choice is yours. </p>`;
+    }
+    if(quickstats[0] > 168 && quickstats[0] < 233) {
+        setImage("https://frontofficesports.com/wp-content/uploads/2020/04/USATSI_14051827-scaled.jpg");
+        return `<h3>Thanks a lot, Mr. Trump. </h3><p>That is exactly what you posted on Twitter after you lost the election and conceded to Tim Ryan. The vast majority of the Republican Party thinks similarly to you, except of course, Trump supporters. They are making claims of voter fraud when in reality they may have tilted the election towards Tim Ryan. <p><p>This was a tough loss for you, and you leave the White House gracefully on January 20, 2021. Tim Ryan will become the 46th President of the United States, and is given the task of ending this pandemic and preparing for any new challenges throughout the next four years. </p>`;
+    }
+    if(quickstats[0] > 232 && quickstats[0] < 269) {
+        setImage("https://upload.wikimedia.org/wikipedia/commons/5/5b/Arnold_Schwarzenegger_-_I%27ll_be_back.jpg");
+        return `<h3>I'll Be Back!</h3><p>Those were the final words in your concession speech viewed by almost two million of your supporters across the Internet, on many social media networks. It was a close race, but Ohio Representative Tim Ryan will become the 46th President of the United States. Many of your supporters are blaming Ryan's victory on Donald Trump's third-party campaign, potentially allowing Ryan to win states in the Southeast, Ohio, Iowa, or other states.<p><p>There is a lot of speculation about what the words "I'll be back" mean, but rumor has it you will seek a 2024 bid for the White House. Time will tell, and if Tim Ryan isn't too popular, you just might be back to terminate Tim Ryan and be the first president to serve non-consecutively since Grover Cleveland.</p>`;
+    }
+
+    if(quickstats[0] > 269 && quickstats[0] < 340) {
+        setImage("");
+        return `<h3>Great job, Arnold. You won a second term.</h3><p>Although most expected this to happen, there were some out there who were worried about your chances because of the vote splitting with Trump's candidacy. You didn't do as well as 2016, but it is a win nevertheless. Your victory speech attracts over 2 million supporters online, throughout many livestreams on many social media platforms.<p><p>It is up to you to finish the job in terminating the COVID-19 virus, and getting the riots and protests under control. You are also responsible for any future challenges America may face in the next four years. Best of luck to you, Presidator! </p>`;
+    }
+    if(quickstats[0] > 339 && quickstats[0] < 427) {
+        setImage("");
+        return `<h3>Well, that hit the spot.</h3>Job well done, Mr. Presidator. Not only did you win this election, but you outperformed your victory from four years ago. Your victory speech is seen by almost 2.5 million of your supporters on many social media platforms. The comment section went wild in support of you, proving that your popularity is widespread, and you also have control of both houses of Congress. <p><p>As for now, it's up to you to finish the job terminating the COVID-19 virus, and getting the Black Lives Matter protests and riots under control. You are quite popular right now, so as long as you don't screw anything up, 2022 and maybe even 2024 will be good for the Republican Party. Best of luck to you, Mr. President. </p>`;
+    }
+    if(quickstats[0] > 426 && quickstats[0] < 538) {
+        setImage("https://i.imgur.com/Th6Mphm.png");
+        return `<h3>What a victory, Mr. Presidator.</h3><p>This is the largest presidential election landslide since your idol Ronald Reagan's in 1984. The popular vote is convincing for you too, but it could always have been higher without Donald Trump.<p><p>It seems that you are quite popular right now and no one wants to see a change in leadership, especially during this pandemic. You are essentially free to govern as you choose, especially with Congress in your hands. Just don't screw anything up, or else 2022 will be Judgment Day for you. </p>`;
+    }
+    if(quickstats[0] == 538) {
+        setImage("https://www.indiewire.com/wp-content/uploads/2023/06/Arnold_Schwarzenegger_Terminator_GQ-Middle-East.jpg");
+        return `<h3>Hasta la vista, baby!</h3><p>You did it. Now time to fly to Niles, Ohio and officially terminate Tim Ryan.<p><p>After saying Hasta la Vista, Baby to him, you shoot him cold dead.<p><p>Next stop: Mar-a-Lago, Florida. Same result. Donald Trump: Dead. <p><p>Surprisingly, no impeachment. The word on the street is "Bigshot", which many wonder what it means. </p>`;
+    }
+}
 
 
 campaignTrail_temp.jet_data = [{
@@ -8961,8 +9009,90 @@ campaignTrail_temp.jet_data = [{
     },
     "cyoa_enabled": false,
     "cyoa_data": {},
-    "endings_enabled": false,
-    "ending_data": {}
+    "endings_enabled": true,
+    "ending_data": {
+        "1709003594220": {
+            "id": 1709003594220,
+            "variable": 0,
+            "operator": "==",
+            "value": 0,
+            "endingImage": "https://i.imgur.com/aZk5lCn.png",
+            "endingText": "<h3>God damnit, Arnold. </h3><p>This is why you can't force the American people to buy your movies. They will call you an authoritarian, and that is why you lost every single state in this country. <p><p>You are a damn idiot. Although you may have helped the economy by doing something this stupid, it basically killed your political career, and likely your Hollywood career as well. You have lost so much support and trust from all walks of life, and your own ex-wife, Maria Shriver, has sent you a cease-and-desist letter after this. <p><p>So you get nothing, you lose, good day sir!",
+            "amount": "0"
+        },
+        "1709003599165": {
+            "id": 1709003599165,
+            "variable": 0,
+            "operator": ">",
+            "value": 0,
+            "endingImage": "",
+            "endingText": "<h3>I did nothing, the pavement was his enemy!</h3><p>This is a result that I doubt anyone expected. Most thought you were a popular enough president to defeat Tim Ryan in spite of losing 10% of your party to Donald Trump's candidacy. But no, you lost. Even worse than George HW Bush in 1992. <p><p>Most are blaming this on the vote-splitting from Trump's candidacy, in a very similar fashion to Ross Perot screwing over George HW Bush 28 years ago. But as for you, you can stay on the sidelines, live a peaceful retirement, or try to terminate Tim Ryan to get your job back in four years. The choice is yours. </p>",
+            "amount": "0"
+        },
+        "1709003601740": {
+            "id": 1709003601740,
+            "variable": 0,
+            "operator": ">",
+            "value": 0,
+            "endingImage": "https://frontofficesports.com/wp-content/uploads/2020/04/USATSI_14051827-scaled.jpg",
+            "endingText": "<h3>Thanks a lot, Mr. Trump. </h3><p>That is exactly what you posted on Twitter after you lost the election and conceded to Tim Ryan. The vast majority of the Republican Party thinks similarly to you, except of course, Trump supporters. They are making claims of voter fraud when in reality they may have tilted the election towards Tim Ryan. <p><p>This was a tough loss for you, and you leave the White House gracefully on January 20, 2021. Tim Ryan will become the 46th President of the United States, and is given the task of ending this pandemic and preparing for any new challenges throughout the next four years. </p>",
+            "amount": "168"
+        },
+        "1709003611877": {
+            "id": 1709003611877,
+            "variable": 0,
+            "operator": ">",
+            "value": 0,
+            "endingImage": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Arnold_Schwarzenegger_-_I%27ll_be_back.jpg",
+            "endingText": "<h3>I'll Be Back!</h3><p>Those were the final words in your concession speech viewed by almost two million of your supporters across the Internet, on many social media networks. It was a close race, but Ohio Representative Tim Ryan will become the 46th President of the United States. Many of your supporters are blaming Ryan's victory on Donald Trump's third-party campaign, potentially allowing Ryan to win states in the Southeast, Ohio, Iowa, or other states.<p><p>There is a lot of speculation about what the words \"I'll be back\" mean, but rumor has it you will seek a 2024 bid for the White House. Time will tell, and if Tim Ryan isn't too popular, you just might be back to terminate Tim Ryan and be the first president to serve non-consecutively since Grover Cleveland.</p>",
+            "amount": "232"
+        },
+        "1709003651222": {
+            "id": 1709003651222,
+            "variable": 0,
+            "operator": "==",
+            "value": 0,
+            "endingImage": "",
+            "endingText": "",
+            "amount": "269"
+        },
+        "1709003662269": {
+            "id": 1709003662269,
+            "variable": 0,
+            "operator": ">",
+            "value": 0,
+            "endingImage": "",
+            "endingText": "<h3>Great job, Arnold. You won a second term.</h3><p>Although most expected this to happen, there were some out there who were worried about your chances because of the vote splitting with Trump's candidacy. You didn't do as well as 2016, but it is a win nevertheless. Your victory speech attracts over 2 million supporters online, throughout many livestreams on many social media platforms.<p><p>It is up to you to finish the job in terminating the COVID-19 virus, and getting the riots and protests under control. You are also responsible for any future challenges America may face in the next four years. Best of luck to you, Presidator! </p>",
+            "amount": "269"
+        },
+        "1709003674080": {
+            "id": 1709003674080,
+            "variable": 0,
+            "operator": ">",
+            "value": 0,
+            "endingImage": "",
+            "endingText": "<h3>Well, that hit the spot.</h3>Job well done, Mr. Presidator. Not only did you win this election, but you outperformed your victory from four years ago. Your victory speech is seen by almost 2.5 million of your supporters on many social media platforms. The comment section went wild in support of you, proving that your popularity is widespread, and you also have control of both houses of Congress. <p><p>As for now, it's up to you to finish the job terminating the COVID-19 virus, and getting the Black Lives Matter protests and riots under control. You are quite popular right now, so as long as you don't screw anything up, 2022 and maybe even 2024 will be good for the Republican Party. Best of luck to you, Mr. President. </p>",
+            "amount": "339"
+        },
+        "1709003686178": {
+            "id": 1709003686178,
+            "variable": 0,
+            "operator": ">",
+            "value": 0,
+            "endingImage": "https://i.imgur.com/Th6Mphm.png",
+            "endingText": "<h3>What a victory, Mr. Presidator.</h3><p>This is the largest presidential election landslide since your idol Ronald Reagan's in 1984. The popular vote is convincing for you too, but it could always have been higher without Donald Trump.<p><p>It seems that you are quite popular right now and no one wants to see a change in leadership, especially during this pandemic. You are essentially free to govern as you choose, especially with Congress in your hands. Just don't screw anything up, or else 2022 will be Judgment Day for you. </p>",
+            "amount": "426"
+        },
+        "1709003692354": {
+            "id": 1709003692354,
+            "variable": 0,
+            "operator": "==",
+            "value": 0,
+            "endingImage": "https://www.indiewire.com/wp-content/uploads/2023/06/Arnold_Schwarzenegger_Terminator_GQ-Middle-East.jpg",
+            "endingText": "<h3>Hasta la vista, baby!</h3><p>You did it. Now time to fly to Niles, Ohio and officially terminate Tim Ryan.<p><p>After saying Hasta la Vista, Baby to him, you shoot him cold dead.<p><p>Next stop: Mar-a-Lago, Florida. Same result. Donald Trump: Dead. <p><p>Surprisingly, no impeachment. The word on the street is \"Bigshot\", which many wonder what it means. </p>",
+            "amount": "538"
+        }
+    }
 }
 ]
 
