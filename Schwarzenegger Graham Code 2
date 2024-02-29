@@ -6491,16 +6491,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 3060,
-        "fields": {
-            "answer": 5099,
-            "candidate": 200,
-            "affected_candidate": 200,
-            "global_multiplier": -1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 3062,
         "fields": {
             "answer": 5102,
@@ -7076,7 +7066,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5065,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": 0.15
+            "global_multiplier": -0.15
         }
     },
     {
@@ -7086,7 +7076,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5064,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": -0.1
+            "global_multiplier": 0.1
         }
     },
     {
@@ -7176,7 +7166,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5099,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": 5
+            "global_multiplier": 500
         }
     },
     {
@@ -7207,6 +7197,16 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 200,
             "affected_candidate": 200,
             "global_multiplier": -0.004
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20777,
+        "fields": {
+            "answer": 5099,
+            "candidate": 200,
+            "affected_candidate": 201,
+            "global_multiplier": 150
         }
     }
 ]
@@ -9104,3 +9104,5 @@ cyoAdventure = function (a) {
          campaignTrail_temp.question_number = 24;
 }
 }
+
+
