@@ -22,7 +22,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1043,
         "fields": {
             "priority": 2,
-            "description": "The FBI director, James Comey, has handed down a severe criticism of your email practices while Secretary of State, though he declined to recommend any indictments. Do you have any comment?",
+            "description": "After the death of George Floyd on May 25 in Minneapolis, huge Black Lives Matter protests and riots have occurred in many cities around the country. What are your thoughts on all of this?",
             "likelihood": 1
         }
     },
@@ -193,7 +193,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1074,
         "fields": {
             "priority": -3,
-            "description": "A leaked transcript from Wikileaks shows your campaign working with members of the DNC to collaborate against the campaign of Bernie Sanders in subtle but definite ways, such as the sharing of some debate questions before a primary debate. How do you respond?",
+            "description": "Will your running-mate, Roy Cooper, attend the customary Vice Presidential debate against Vice President Lindsey Graham?",
             "likelihood": 1
         }
     },
@@ -202,7 +202,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1073,
         "fields": {
             "priority": -3,
-            "description": "A leaked transcript from Wikileaks shows you saying in a closed-door speech at Goldman Sachs that you are \"center-left, center-right\" and that you support \"open trade and open borders\". How do you respond?",
+            "description": "Whether it's an \"October Surprise\" or not, Donald Trump has contracted COVID-19. Most think this was caused by his massive rallies across the country. Do you plan to respond to this event?",
             "likelihood": 1
         }
     },
@@ -211,7 +211,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1075,
         "fields": {
             "priority": -2,
-            "description": "James Comey, FBI Director, has made a late announcement that additional emails have surfaced in your case, thanks to an investigation into Anthony Weiner. What are your thoughts?",
+            "description": "About a week before the election, the CDC has reported a spike in COVID-19 cases. What do you have to say about this?",
             "likelihood": 1
         }
     },
@@ -256,15 +256,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5143,
         "fields": {
             "question": 1043,
-            "description": "The Republicans can't beat us on the issues, like raising the minimum wage or making college more affordable. So instead their allies in the right-wing media use these non-stories and innuendo to defend the privilege of the 1%. There is nothing to see here."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 5144,
-        "fields": {
-            "question": 1043,
-            "description": "Let's take a step back. George Bush and Dick Cheney lost over 20 million emails from their time in office. I have already turned over every relevant email from my time as Secretary of State. Anything else is a right-wing hit job."
+            "description": "Mr. Floyd's death was so unfair to him, and I am in support of the Black Lives Matter movement. We need to fight the root causes of black poverty, defund the police, and fight for equity in our society and government."
         }
     },
     {
@@ -272,7 +264,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5145,
         "fields": {
             "question": 1043,
-            "description": "I used the same email practices as Colin Powell and many other people in government. I was far too busy dealing with Russia, the Arab Spring, and the E.U. crisis to keep track of how IT was setting up my email system."
+            "description": "I do condemn Derek Chauvin, but I'm hopeful that Hennepin County and the state of Minnesota will do what is right to hold him accountable."
         }
     },
     {
@@ -280,7 +272,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5146,
         "fields": {
             "question": 1043,
-            "description": "This email system was a lapse in judgment, and I apologize. It was simply a matter of convenience to prevent me from carrying two phones everywhere, but if I was doing it again, I might do something different."
+            "description": "George Floyd's death is no excuse for all of the chaos we are seeing in our cities, especially during a pandemic. We need to take strong action against these rioters and establish law and order in our cities."
         }
     },
     {
@@ -776,7 +768,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5250,
         "fields": {
             "question": 1073,
-            "description": "This is a gross misrepresentation of my statements. I was speaking hypothetically about the future 40 or 50 years from now. And I would remind you that these statements were most likely leaked by Russian intelligence."
+            "description": "I will not make any statements other than wishing him the best during this time, and I will focus on my own campaign."
         }
     },
     {
@@ -784,15 +776,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5251,
         "fields": {
             "question": 1073,
-            "description": "If we look back to the days of Abraham Lincoln, one of our greatest leaders, he said that sometimes you need to have a public position and a private position on some issues to drive true progress."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 5252,
-        "fields": {
-            "question": 1073,
-            "description": "This is nothing compared to the lies and equivocation of Donald Trump. And furthermore, it's appalling that Republicans are so willing to throw aside all ideals and cooperate with the Russians, the moment it's convenient for them."
+            "description": "I don't find this too surprising, and his rallies could be a reason for the high case numbers we are seeing right now. One of them was actually in Youngstown, with about 10,000 people. When his supporters are kissing his ass like that, they're gonna be vulnerable to catching the virus."
         }
     },
     {
@@ -800,7 +784,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5253,
         "fields": {
             "question": 1074,
-            "description": "We have already implemented reforms to the DNC to prevent this in the future. And also, the idea that the nomination was \"stolen\" is absurd and unfactual."
+            "description": "No."
         }
     },
     {
@@ -808,7 +792,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5254,
         "fields": {
             "question": 1074,
-            "description": "Any \"concern\" that Republicans have for Bernie Sanders and his supporters is utterly fraudulent. Furthermore, the incidents these leaks mention are minor and had no effect on the nomination."
+            "description": "This pandemic won't stop anyone from debating. He'll be there."
         }
     },
     {
@@ -816,7 +800,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5255,
         "fields": {
             "question": 1074,
-            "description": "This is nothing compared to the lies and equivocation of Donald Trump. And furthermore, it's appalling that Republicans are so willing to throw aside all ideals and cooperate with the Russians, the moment it's convenient for them."
+            "description": "This pandemic won't stop anyone from debating. He'll be there."
         }
     },
     {
@@ -824,15 +808,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5256,
         "fields": {
             "question": 1075,
-            "description": "Where is the investigation into the Russian leaks? Where is the investigation into Trump's blatantly illegal business practices over many years? This is an unprecededented and outrageous act of political interference by the FBI."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 5257,
-        "fields": {
-            "question": 1075,
-            "description": "I am deeply concerned by Comey's decision to reopen a settled case, and I'm confident that there are no new revelations here. We're going to focus on our message during the closing stretch of this campaign?"
+            "description": "We need to stay diligent and as safe as we can. We will not let this pandemic stop us from getting out to the polls. Mail in your ballots if you can, and if you need to go out, mask up and distance yourself."
         }
     },
     {
@@ -889,6 +865,14 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 1044,
             "description": "Both parties have had populist movements over the last four years. I support economic protectionism and have for many years, so why not try to take some of his blue-collar support for our advantage?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 20714,
+        "fields": {
+            "question": 1074,
+            "description": "This pandemic won't stop anyone from debating. He'll be there."
         }
     }
 ]
@@ -6417,8 +6401,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 5250,
             "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": 0.025
+            "affected_candidate": 201,
+            "global_multiplier": 0.003
         }
     },
     {
@@ -6427,18 +6411,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 5251,
             "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": 0.0275
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3106,
-        "fields": {
-            "answer": 5252,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": 0.025
+            "affected_candidate": 202,
+            "global_multiplier": -0.07
         }
     },
     {
@@ -6447,8 +6421,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 5253,
             "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": 0.0175
+            "affected_candidate": 201,
+            "global_multiplier": -0.01
         }
     },
     {
@@ -6457,18 +6431,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 5254,
             "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": 0.015
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3109,
-        "fields": {
-            "answer": 5255,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": 0.015
+            "affected_candidate": 201,
+            "global_multiplier": -0.005
         }
     },
     {
@@ -6488,17 +6452,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5143,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.002
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3132,
-        "fields": {
-            "answer": 5144,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.004
+            "global_multiplier": -0.005
         }
     },
     {
@@ -6718,17 +6672,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5256,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.05
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3165,
-        "fields": {
-            "answer": 5257,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.01
         }
     },
     {
@@ -6899,36 +6843,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 201,
             "affected_candidate": 203,
             "global_multiplier": 0.1032
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3215,
-        "fields": {
-            "answer": 5253,
-            "candidate": 201,
-            "affected_candidate": 203,
-            "global_multiplier": 0.02
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3216,
-        "fields": {
-            "answer": 5254,
-            "candidate": 201,
-            "affected_candidate": 203,
-            "global_multiplier": 0.02
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3217,
-        "fields": {
-            "answer": 5255,
-            "candidate": 201,
-            "affected_candidate": 203,
-            "global_multiplier": 0.02
         }
     },
     {
@@ -7183,46 +7097,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 3330,
-        "fields": {
-            "answer": 5256,
-            "candidate": 201,
-            "affected_candidate": 202,
-            "global_multiplier": -0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3331,
-        "fields": {
-            "answer": 5256,
-            "candidate": 201,
-            "affected_candidate": 203,
-            "global_multiplier": -0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3332,
-        "fields": {
-            "answer": 5257,
-            "candidate": 201,
-            "affected_candidate": 202,
-            "global_multiplier": -0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3333,
-        "fields": {
-            "answer": 5257,
-            "candidate": 201,
-            "affected_candidate": 203,
-            "global_multiplier": -0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 20688,
         "fields": {
             "answer": 5245,
@@ -7289,6 +7163,56 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 201,
             "affected_candidate": 201,
             "global_multiplier": 0.001
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20716,
+        "fields": {
+            "answer": 5250,
+            "candidate": 202,
+            "affected_candidate": 202,
+            "global_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20717,
+        "fields": {
+            "answer": 5251,
+            "candidate": 200,
+            "affected_candidate": 202,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20720,
+        "fields": {
+            "answer": 20714,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20724,
+        "fields": {
+            "answer": 5145,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.004
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20726,
+        "fields": {
+            "answer": 5146,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.1
         }
     }
 ]
@@ -7696,32 +7620,12 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 2832,
-        "fields": {
-            "answer": 5143,
-            "issue": 100,
-            "issue_score": 0.4,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
         "pk": 2833,
         "fields": {
             "answer": 5143,
             "issue": 103,
-            "issue_score": 0.4,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2834,
-        "fields": {
-            "answer": 5144,
-            "issue": 100,
-            "issue_score": 0.425,
-            "issue_importance": 2
+            "issue_score": 0.65,
+            "issue_importance": 5
         }
     },
     {
@@ -8071,6 +7975,46 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 5152,
             "issue": 103,
             "issue_score": 0.35,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 20715,
+        "fields": {
+            "answer": 5256,
+            "issue": 104,
+            "issue_score": 0.35,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 20718,
+        "fields": {
+            "answer": 5251,
+            "issue": 104,
+            "issue_score": 0.2,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 20721,
+        "fields": {
+            "answer": 5145,
+            "issue": 103,
+            "issue_score": 0.3,
+            "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 20725,
+        "fields": {
+            "answer": 5146,
+            "issue": 103,
+            "issue_score": -0.45,
             "issue_importance": 4
         }
     }
@@ -9935,6 +9879,28 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 201,
             "state_multiplier": 0.01
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20722,
+        "fields": {
+            "answer": 5145,
+            "state": 1022,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.003
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20723,
+        "fields": {
+            "answer": 5143,
+            "state": 1022,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.006
+        }
     }
 ]
 
@@ -9972,16 +9938,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5143,
             "candidate": 201,
-            "answer_feedback": "It's good to hit back hard, even if a few bloviators question how this affects your \"likeability\"."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2625,
-        "fields": {
-            "answer": 5144,
-            "candidate": 201,
-            "answer_feedback": "Maybe your best bet here is to turn this into a \"both sides\" partisan story. And it's not as if you're wrong about Bush."
+            "answer_feedback": "Although this excites progressives, this stance is a bit out of the mainstream, and you are being attacked by Schwarzenegger and Trump about your plans to defund the police."
         }
     },
     {
@@ -9990,7 +9947,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5145,
             "candidate": 201,
-            "answer_feedback": "This story is having a definite effect on your campaign, unfortunately."
+            "answer_feedback": "This is probably the best answer for the situation, although some were expecting you to fight harder on this issue."
         }
     },
     {
@@ -9999,7 +9956,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5146,
             "candidate": 201,
-            "answer_feedback": "This story is having a definite effect on your campaign, unfortunately."
+            "answer_feedback": "BREAKING NEWS: Former 2016 Democratic Presidential Candidate and Current Vermont Senator Bernie Sanders dies at age 78 of a Heart Attack. "
         }
     },
     {
@@ -10377,7 +10334,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5250,
             "candidate": 201,
-            "answer_feedback": "After days of Trump's \"grab them by the pussy\" comments dominating the news, the story begins to move on to other things, not the least of which is these leaks."
+            "answer_feedback": "While some of your supporters are disheartened by your decision, it's good to be non-political, especially in times like these."
         }
     },
     {
@@ -10386,16 +10343,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5251,
             "candidate": 201,
-            "answer_feedback": "After days of Trump's \"grab them by the pussy\" comments dominating the news, the story begins to move on to other things, not the least of which is these leaks."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2698,
-        "fields": {
-            "answer": 5252,
-            "candidate": 201,
-            "answer_feedback": "After days of Trump's \"grab them by the pussy\" comments dominating the news, the story begins to move on to other things, not the least of which is these leaks."
+            "answer_feedback": "Donald Trump's campaign loses some ground due to his ignorance of the COVID-19 virus, and both you and the President gain as a result."
         }
     },
     {
@@ -10404,7 +10352,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5253,
             "candidate": 201,
-            "answer_feedback": "After days of Trump's \"grab them by the pussy\" comments dominating the news, the story begins to move on to other things, not the least of which is these leaks."
+            "answer_feedback": "Why not? But it's a pandemic year, so honestly whatever."
         }
     },
     {
@@ -10413,7 +10361,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5254,
             "candidate": 201,
-            "answer_feedback": "After days of Trump's \"grab them by the pussy\" comments dominating the news, the story begins to move on to other things, not the least of which is these leaks."
+            "answer_feedback": "Vice President Graham was the winner in the debates, and rumor has it that Roy Cooper was quite tired that night. Not to mention, a fly landed on Cooper's head, with the Schwarzenegger campaign making viral posts about it."
         }
     },
     {
@@ -10422,7 +10370,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5255,
             "candidate": 201,
-            "answer_feedback": "After days of Trump's \"grab them by the pussy\" comments dominating the news, the story begins to move on to other things, not the least of which is these leaks."
+            "answer_feedback": "It seems like the debates were a tie, with both Cooper and the Vice President having breakout moments. Don't expect a major shift in the polls from this."
         }
     },
     {
@@ -10431,16 +10379,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5256,
             "candidate": 201,
-            "answer_feedback": "After a few days, Comey does announce that no new evidence was found. Unfortunately for you, there was a definite effect on the polls as early voting began."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2703,
-        "fields": {
-            "answer": 5257,
-            "candidate": 201,
-            "answer_feedback": "After a few days, Comey does announce that no new evidence was found. Unfortunately for you, there was a definite effect on the polls as early voting began."
+            "answer_feedback": "Arnold Schwarzenegger gains some last-minute support due to his popular response to the COVID-19 pandemic. Will you still be able to turn out enough of your base to eek out a victory?"
         }
     },
     {
@@ -10585,6 +10524,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 20691,
             "candidate": 201,
             "answer_feedback": "Surprisingly, this works out quite well. Blue-collar workers seem to gravitate more towards you than they otherwise would have. Expect gains with this group of voters."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 20719,
+        "fields": {
+            "answer": 20714,
+            "candidate": 201,
+            "answer_feedback": "It seems that Roy Cooper has won the debate, and Lindsey Graham was quite tired that night. Not to mention, the fly that landed on Vice President Graham's head went viral."
         }
     }
 ]
