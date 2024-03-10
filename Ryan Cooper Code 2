@@ -49,7 +49,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1051,
         "fields": {
             "priority": 5,
-            "description": "Will you give Bernie Sanders a prime speaking slot at the Democratic Convention?",
+            "description": "Considering the extraneous circumstances surrounding the 2020 election cycle as a result of the COVID-19 pandemic, how are you planning to campaign until November 3rd?",
             "likelihood": 1
         }
     },
@@ -67,7 +67,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1052,
         "fields": {
             "priority": 6,
-            "description": "There has been a violent terrorist attack in Nice today, resulting in the deaths of almost 100 people. How will you address this?",
+            "description": "What are your thoughts on the civil unrest in Kenosha, Wisconsin after the death of Jacob Blake and 17-year-old Kyle Rittenhouse shooting three people?",
             "likelihood": 1
         }
     },
@@ -121,7 +121,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1060,
         "fields": {
             "priority": 7,
-            "description": "To what extent will you support the presence of Bernie Sanders on the campaign trail?",
+            "description": "Liberal Supreme Court Justice Ruth Bader Ginsburg has passed away at the age of 87 on September 18, 2020. Do you support plans to replace her before the election?",
             "likelihood": 1
         }
     },
@@ -157,7 +157,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1066,
         "fields": {
             "priority": -7,
-            "description": "During a fundraiser, you made a comment that around half of Trump's supporters form a \"basket of deplorables\", with a renewed emphasis on racism, bigotry, and Islamophobia. Do you care to clarify?",
+            "description": "Many of your supporters are not too happy about Roy Cooper being selected as a running-mate. Many of them would've wanted a minority and/or a woman to be selected, or someone more progressive. How will you defend your selection of Roy Cooper?",
             "likelihood": 1
         }
     },
@@ -202,7 +202,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1073,
         "fields": {
             "priority": -3,
-            "description": "Whether it's an \"October Surprise\" or not, Donald Trump has contracted COVID-19. Most think this was caused by his massive rallies across the country. Do you plan to respond to this event?",
+            "description": "Whether it's an \"October Surprise\" or not, Donald Trump has contracted COVID-19. Most think this was caused by his massive rallies across the country. Do you plan to respond to this?",
             "likelihood": 1
         }
     },
@@ -344,7 +344,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5170,
         "fields": {
             "question": 1051,
-            "description": "Absolutely. The differences between us are much smaller than the things that unite us. We both wake up every day and fight for average Americans -- for their health care, their housing and education costs, and their personal rights."
+            "description": "We should do a mix between in-person and virtual campaigning. I will get the messages out on television, social media livestreams, and pre-recorded YouTube videos. I would also be interested in doing some drive-in rallies to get publicity in the swing states."
         }
     },
     {
@@ -352,7 +352,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5171,
         "fields": {
             "question": 1051,
-            "description": "We don't really have a choice. He has far too much support in our party for us to pretend like he doesn't exist. Let's make sure to do a couple of appearances together before this is all over."
+            "description": "This pandemic has taught us that the Internet and social media are more important now than ever before. We need to adapt our campaign to be virtual, with livestreams, TV infomercials, and more."
         }
     },
     {
@@ -360,7 +360,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5172,
         "fields": {
             "question": 1051,
-            "description": "Donald Trump would be a disaster for the future of this country. We need to do everything we can to appeal to moderate voters who can be swayed by a qualified candidate. Bernie unfortunately complicates things on that front."
+            "description": "We need to campaign in-person like the way it's always been. We aren't gonna let this pandemic stop us from kicking ass in this election and terminating the Presidator."
         }
     },
     {
@@ -368,7 +368,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5173,
         "fields": {
             "question": 1052,
-            "description": "My heart goes out to the victims of this terrible attack. I will give a speech in a few days about the importance of tolerance and diversity in our society."
+            "description": "This is why we need to fight harder on gun control and police brutality. It is also paramount that we pass an assault weapons ban, which I will fight vigorously for as President. Our communities need to stay safe from any kinds of danger."
         }
     },
     {
@@ -376,7 +376,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5174,
         "fields": {
             "question": 1052,
-            "description": "My heart goes out to those affected by this terrible attack. My thoughts and prayers are with the great nation of France, and I will travel to France to pay my respects to the victims."
+            "description": "My heart goes out to the city of Kenosha. I will travel there to meet with the families of the victims, including Jacob Blake's, and pay my respects."
         }
     },
     {
@@ -384,7 +384,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5175,
         "fields": {
             "question": 1052,
-            "description": "My heart goes out to the victims of this terrible attack. I will give a speech in a few days about the importance of defeating ISIS and religious extremism in all of its forms."
+            "description": "I strongly condemn the police officer who killed Mr. Blake, and I stand with the Black Lives Matter movement in the wake of this tragedy. I also condemn Kyle Rittenhouse for causing huge atrocities in the city of Kenosha."
         }
     },
     {
@@ -496,7 +496,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5200,
         "fields": {
             "question": 1060,
-            "description": "I think it's obvious that we plan to spend a lot of time campaigning with Bernie Sanders, and that we're making a real effort to incorporate his message into our campaign."
+            "description": "Ruth Bader Ginsburg's wish was for the people to decide her replacement, and I call on the President to honor that request. If I win the election in November, I will appoint who I find the most qualified to replace her."
         }
     },
     {
@@ -504,23 +504,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5201,
         "fields": {
             "question": 1060,
-            "description": "I want us to do a high-profile appearance with Bernie in Michigan, once the campaign gets going. We don't agree on every issue, but I want to embrace his economic message and show people that our party is unified."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 5202,
-        "fields": {
-            "question": 1060,
-            "description": "Bernie Sanders has offered to campaign extensively on our behalf, and of course we want to have him on the trail. I'm willing to make a few small promises to make that happen."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 5203,
-        "fields": {
-            "question": 1060,
-            "description": "I'd love to have Bernie Sanders out there campaigning for us, but the things he is asking for are simply unrealistic. I'm not going to sit here and bargain away my platform when I'm the one who won the nomination."
+            "description": "If Republicans can wait until after the election, I would nominate Ketanji Brown Jackson to be the first black woman to serve on the Supreme Court. She will be a great replacement for RBG."
         }
     },
     {
@@ -592,7 +576,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5224,
         "fields": {
             "question": 1066,
-            "description": "This was an ill-considered and insensitive comment on my part, and I apologize. While this is a real issue, saying it describes \"half\" of Trump's supporters is a definite exaggeration."
+            "description": "Listen up everyone, we had a tough primary and we need to unite the Democratic Party. Roy Cooper fought a hard campaign and he had a lot of support, and we need to be moderate if we want to compete with President Schwarzenegger."
         }
     },
     {
@@ -600,15 +584,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5225,
         "fields": {
             "question": 1066,
-            "description": "We should all be very concerned with the right-wing radicalism that Trump has enabled. It has no place in America, even if this particular remark could have been stated with more finesse."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 5226,
-        "fields": {
-            "question": 1066,
-            "description": "I will apologize for this remark when Trump apologizes for his \"rapist\" comments about Hispanics, his constant attacks on women, and his failure to condemn white supremicist supporters."
+            "description": "Roy Cooper, while he may not be a minority nor a woman, is a true fighter for the issues that matter to us Democrats. Let's have him focus on the issues we all care about, especially this pandemic."
         }
     },
     {
@@ -6487,16 +6463,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 3137,
-        "fields": {
-            "answer": 5171,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 3138,
         "fields": {
             "answer": 5172,
@@ -6582,27 +6548,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5200,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.006
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3153,
-        "fields": {
-            "answer": 5201,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.003
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3154,
-        "fields": {
-            "answer": 5203,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.006
+            "global_multiplier": 0.002
         }
     },
     {
@@ -6717,16 +6663,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 3186,
-        "fields": {
-            "answer": 5200,
-            "candidate": 201,
-            "affected_candidate": 202,
-            "global_multiplier": 0.02
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 3188,
         "fields": {
             "answer": 5229,
@@ -6787,62 +6723,12 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 3203,
-        "fields": {
-            "answer": 5171,
-            "candidate": 201,
-            "affected_candidate": 203,
-            "global_multiplier": 0.07
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3204,
-        "fields": {
-            "answer": 5172,
-            "candidate": 201,
-            "affected_candidate": 203,
-            "global_multiplier": 0.15
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 3209,
         "fields": {
             "answer": 5199,
             "candidate": 201,
             "affected_candidate": 203,
             "global_multiplier": -0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3210,
-        "fields": {
-            "answer": 5200,
-            "candidate": 201,
-            "affected_candidate": 203,
-            "global_multiplier": -0.02
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3211,
-        "fields": {
-            "answer": 5201,
-            "candidate": 201,
-            "affected_candidate": 203,
-            "global_multiplier": -0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3212,
-        "fields": {
-            "answer": 5203,
-            "candidate": 201,
-            "affected_candidate": 203,
-            "global_multiplier": 0.1032
         }
     },
     {
@@ -6992,7 +6878,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5224,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.007
+            "global_multiplier": -0.003
         }
     },
     {
@@ -7002,27 +6888,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5225,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.0065
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3321,
-        "fields": {
-            "answer": 5226,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": -0.004
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3322,
-        "fields": {
-            "answer": 5226,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.01
+            "global_multiplier": -0.006
         }
     },
     {
@@ -7214,6 +7080,46 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 201,
             "global_multiplier": -0.1
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20727,
+        "fields": {
+            "answer": 5170,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20729,
+        "fields": {
+            "answer": 5201,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20731,
+        "fields": {
+            "answer": 5175,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.004
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20732,
+        "fields": {
+            "answer": 5173,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.008
+        }
     }
 ]
 
@@ -7290,22 +7196,12 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 2656,
-        "fields": {
-            "answer": 5170,
-            "issue": 100,
-            "issue_score": 0.6,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
         "pk": 2657,
         "fields": {
             "answer": 5170,
-            "issue": 101,
-            "issue_score": 0.5,
-            "issue_importance": 1
+            "issue": 104,
+            "issue_score": 0.15,
+            "issue_importance": 5
         }
     },
     {
@@ -7313,8 +7209,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 2658,
         "fields": {
             "answer": 5171,
-            "issue": 100,
-            "issue_score": 0.2,
+            "issue": 104,
+            "issue_score": 0.5,
             "issue_importance": 3
         }
     },
@@ -7323,8 +7219,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 2659,
         "fields": {
             "answer": 5172,
-            "issue": 100,
-            "issue_score": 0.1,
+            "issue": 104,
+            "issue_score": -0.5,
             "issue_importance": 3
         }
     },
@@ -7343,19 +7239,9 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 2661,
         "fields": {
             "answer": 5174,
-            "issue": 102,
-            "issue_score": 0,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2662,
-        "fields": {
-            "answer": 5175,
-            "issue": 102,
-            "issue_score": -0.25,
-            "issue_importance": 2
+            "issue": 103,
+            "issue_score": 0.1,
+            "issue_importance": 5
         }
     },
     {
@@ -7364,8 +7250,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 5175,
             "issue": 103,
-            "issue_score": 0.2,
-            "issue_importance": 2
+            "issue_score": 0.55,
+            "issue_importance": 4
         }
     },
     {
@@ -7445,106 +7331,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 5199,
             "issue": 100,
             "issue_score": 0.65,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2679,
-        "fields": {
-            "answer": 5200,
-            "issue": 100,
-            "issue_score": 0.65,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2680,
-        "fields": {
-            "answer": 5200,
-            "issue": 101,
-            "issue_score": 0.65,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2681,
-        "fields": {
-            "answer": 5200,
-            "issue": 102,
-            "issue_score": 0.65,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2682,
-        "fields": {
-            "answer": 5200,
-            "issue": 103,
-            "issue_score": 0.65,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2683,
-        "fields": {
-            "answer": 5200,
-            "issue": 104,
-            "issue_score": 0.65,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2684,
-        "fields": {
-            "answer": 5201,
-            "issue": 100,
-            "issue_score": 0.5,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2685,
-        "fields": {
-            "answer": 5201,
-            "issue": 101,
-            "issue_score": 0.5,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2686,
-        "fields": {
-            "answer": 5203,
-            "issue": 100,
-            "issue_score": 0.1,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2687,
-        "fields": {
-            "answer": 5203,
-            "issue": 101,
-            "issue_score": -0.2,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2688,
-        "fields": {
-            "answer": 5203,
-            "issue": 102,
-            "issue_score": 0,
             "issue_importance": 2
         }
     },
@@ -7833,9 +7619,9 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 2886,
         "fields": {
             "answer": 5225,
-            "issue": 103,
-            "issue_score": 0.666,
-            "issue_importance": 1
+            "issue": 104,
+            "issue_score": 0.25,
+            "issue_importance": 4
         }
     },
     {
@@ -8016,6 +7802,16 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 103,
             "issue_score": -0.45,
             "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 20728,
+        "fields": {
+            "answer": 5201,
+            "issue": "100",
+            "issue_score": 0.35,
+            "issue_importance": 3
         }
     }
 ]
@@ -9079,28 +8875,6 @@ campaignTrail_temp.answer_score_state_json = [
     },
     {
         "model": "campaign_trail.answer_score_state",
-        "pk": 20611,
-        "fields": {
-            "answer": 5201,
-            "state": 1021,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "state_multiplier": 0.00333
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 20612,
-        "fields": {
-            "answer": 5201,
-            "state": 1034,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "state_multiplier": 0.002
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
         "pk": 20613,
         "fields": {
             "answer": 5233,
@@ -9901,6 +9675,39 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 201,
             "state_multiplier": 0.006
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20730,
+        "fields": {
+            "answer": 5174,
+            "state": 1049,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20733,
+        "fields": {
+            "answer": 5224,
+            "state": 1032,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20734,
+        "fields": {
+            "answer": 5225,
+            "state": 1032,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.002
+        }
     }
 ]
 
@@ -10037,7 +9844,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5170,
             "candidate": 201,
-            "answer_feedback": "Whatever your personal feelings, you must do something to reach out to Bernie Sanders and his legion of supporters."
+            "answer_feedback": "For the most part, President Schwarzenegger is doing the same. Your drive-in rallies at sports arenas across the country make headlines and are quite popular."
         }
     },
     {
@@ -10046,7 +9853,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5171,
             "candidate": 201,
-            "answer_feedback": "People on all sides mostly see you trying to strike a middle path on the \"Bernie question\"."
+            "answer_feedback": "Many of your livestreams see over 500,000 viewers at once, proving that your support hasn't gone anywhere during the pandemic. Some of your supporters would've preferred more in-person campaigning, though."
         }
     },
     {
@@ -10055,7 +9862,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5172,
             "candidate": 201,
-            "answer_feedback": "Even close advisors feel it was probably a mistake to freeze Bernie out so aggressively from the convention, given the backlash that has ensued."
+            "answer_feedback": "COVID-19 cases rise to over 50,000 a day due to these rallies and other super-spreader events. Thanks a lot, Tim."
         }
     },
     {
@@ -10064,7 +9871,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5173,
             "candidate": 201,
-            "answer_feedback": "This answer has the expected supporters and detractors."
+            "answer_feedback": "You are accused of politicizing this tragedy, even though your progressive base is fired up. "
         }
     },
     {
@@ -10073,7 +9880,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5174,
             "candidate": 201,
-            "answer_feedback": "This is a safe, standard response and your visit makes you look statesmanlike in contrast to Trump."
+            "answer_feedback": "This is a good, non-political response to this situation. This should help you gain supporters in battleground Wisconsin."
         }
     },
     {
@@ -10082,7 +9889,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5175,
             "candidate": 201,
-            "answer_feedback": "Pundits note the surprisingly strong tone of your speech about ISIS."
+            "answer_feedback": "Black Lives Matter is happy to have you on their side, although your stance may be a bit out of touch with the average voter."
         }
     },
     {
@@ -10199,7 +10006,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5200,
             "candidate": 201,
-            "answer_feedback": "There are pros and cons to embracing Bernie so closely."
+            "answer_feedback": "This is what the Democratic base was hoping from you."
         }
     },
     {
@@ -10208,16 +10015,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5201,
             "candidate": 201,
-            "answer_feedback": "Who knows if it means anything nationally, but a raucous crowd turned out to support the two of you."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2680,
-        "fields": {
-            "answer": 5203,
-            "candidate": 201,
-            "answer_feedback": "The reluctance of Bernie to endorse you after a couple of personal meetings fuels rampant speculation about the causes."
+            "answer_feedback": "The possibility of the first black woman on the Supreme Court could really excite black voters and progressives. The President has indicated he will wait until after the election though, so the Supreme Court could come down to November's election."
         }
     },
     {
@@ -10433,7 +10231,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5224,
             "candidate": 201,
-            "answer_feedback": "It may have been an off-the-cuff statement, but it has erupted onto the headlines, likely to your detriment."
+            "answer_feedback": "Some of your supporters are still disheartened, but this is probably for the best."
         }
     },
     {
@@ -10442,16 +10240,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5225,
             "candidate": 201,
-            "answer_feedback": "It may have been an off-the-cuff statement, but it has erupted onto the headlines, likely to your detriment."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2716,
-        "fields": {
-            "answer": 5226,
-            "candidate": 201,
-            "answer_feedback": "Whatever else people can say about this campaign, it certainly hasn't lacked in verbal combat between you and Mr. Trump."
+            "answer_feedback": "Your focus on the COVID-19 pandemic is more important, but progressives are still disheartened about your reluctance to select a black woman."
         }
     },
     {
