@@ -7483,7 +7483,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 20778,
         "fields": {
             "answer": 5176,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.45,
             "issue_importance": 4
         }
@@ -7493,7 +7493,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 20779,
         "fields": {
             "answer": 5177,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.75,
             "issue_importance": 5
         }
@@ -7523,7 +7523,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 20804,
         "fields": {
             "answer": 20800,
-            "issue": "100",
+            "issue": 100,
             "issue_score": -0.45,
             "issue_importance": 4
         }
@@ -8664,6 +8664,53 @@ campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/h2uhPgm.png";
 campaignTrail_temp.candidate_last_name = "Ryan";
 campaignTrail_temp.running_mate_last_name = "Cooper";
 
+campaignTrail_temp.multiple_endings = true;
+endingPicker = (out, totv, aa, quickstats) => {
+
+    function setImage(url) {
+        if(url == '' || url == null) return;
+        let interval = setInterval(function () {
+            img = document.getElementsByClassName("person_image")[0];
+            if (img != null) {
+                img.src = url;
+                clearInterval(interval);
+            }
+        }, 50);
+    }
+
+    if(quickstats[0] == 0) {
+        setImage("https://i.ebayimg.com/images/g/mYwAAOSwISVhfxz1/s-l1600.png");
+        return `<h3>You are an Idiot.</h3><p>How on earth could you screw up so bad for this to happen? Was the election stolen? No one knows. No one cares. <p><p>You Are an Idiot. Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha! You Are an Idiot. Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha! You Are an Idiot. Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha! You Are an Idiot. Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha! </p>`;
+    }
+    if(quickstats[0] > 0 && quickstats[0] < 113) {
+        setImage("https://assets.mubicdn.net/images/artworks/559143/images-original.png?1686643766");
+        return `<h3>Hasta la vista, baby!</h3><p>Those were the first words in President Schwarzenegger's victory speech after he totally decimated you. It's probable that he won his home state of California too. In other words, you did worse than Michael Dukakis in 1988, showing how bad your campaign went. You are being compared to Walter Mondale, especially considering Ronald Reagan, who was also an actor and a Republican Governor of California, demolished Mondale in a landslide similar to this. <p><p>Although you were the underdog all alone, no one thought you would see a loss like this. Your political career is likely over, considering how humiliated you are, and the Democrats could be in deep trouble in 2024. </p>`;
+    }
+    if(quickstats[0] > 112 && quickstats[0] < 200) {
+        setImage("");
+        return `<h3>Sorry, Tim. This was a tough loss.</h3><p>This is a loss for the Democratic Party that they haven't seen in 30 years. While some were expecting it, the Democrats are humiliated to have lost so many states they have held for 20, 30, maybe even 50 years. It seems as President Schwarzenegger is quite popular right now, which is expected because of his response to the COVID-19 pandemic and the civil unrest occurring across the country. <p><p>As for you, your presidential ambitions are likely over, but you can possibly run for Governor or Senate in Ohio in the coming years, as you are quite young. There is still time for you to make a comeback if you so choose to, but your constituents will likely be limited to the state of Ohio. The choice is yours, Tim. </p>`;
+    }
+    if(quickstats[0] > 199 && quickstats[0] < 269) {
+        setImage("");
+        return `<h3>PRESIDENT SCHWARZENEGGER RE-ELECTED</h3><p>Although you and your supporters are very disappointed with this result, most expected the President to be re-elected. Schwarzenegger's response to the COVID-19 pandemic was quite popular, and it seems like America doesn't want to change leadership during such difficult, unprecedented times. But hey, you did better than Hillary Clinton four years ago.<p><p>As for you, you still have a lot of years left if you want to make a political comeback. Perhaps a gubernatorial or Senatorial bid in 2022 or 2026? With a wide open Democratic field in 2024, maybe you can try again? The choice is yours, Tim. </p>`;
+    }
+    if(quickstats[0] > 269 && quickstats[0] < 307) {
+        setImage("");
+        return `<h3>TIM RYAN ELECTED 46TH PRESIDENT</h3><p>This is very exciting news for you and the Democratic Party, and maybe a bit surprising as well. Your victory speech is livestreamed with over 1.5 million simultaneous viewers, and the comment sections are going nuts. Get ready to move to 1600 Pennsylvania Avenue to become the 46th President of the United States.<p><p>The Republican Party is in shambles right now due to this loss, likely caused by Donald Trump's third-party candidacy taking enough votes in the battleground states to allow you to win. Three words from President Schwarzenegger's concession speech are making headlines: "I'll Be Back". Some are speculating if he's gonna run again in 2024, but it doesn't matter for now right? Just don't screw anything up as President, or it could be Judgement Day for you.</p>`;
+    }
+    if(quickstats[0] > 306 && quickstats[0] < 371) {
+        setImage("");
+        return `<h3>America's got an ass-kicker!</h3><p>These were the first words in your victory speech that was livestreamed with over 1.5 million live viewers. You and your supporters are very jittery with this result, and the Republicans are distraught, and some are angry. Trump supporters are being Trump supporters. It's likely that they have cost Arnold Schwarzenegger a second term, especially with Trump's percentages in the battleground states. <p><p>The Democratic Party is ready to have you in the White House, and as long as you don't screw up, 2024 should be a sweet victory for the Democrats. But who knows? Arnold Schwarzenegger might be back to give you a rematch, and if you don't play your cards right, it could be Judgement Day for you. Best of luck to you, President Ryan. </p>`;
+    }
+    if(quickstats[0] > 370 && quickstats[0] < 538) {
+        setImage("https://vmndims.binge.com.au/api/v2/img/5ec3b84ee4b0641339cee8d4-1619489429313?location=tile&imwidth=1280");
+        return `<h3>Let's kick some ass!</h3><p>This was the most retweeted and replayed line from your victory speech, which has attracted over 1.5 million live viewers around the United States. This was a shocking defeat for the President, even more than George H.W. Bush in 1992. But nevertheless, this is very exciting news for the Democrats, as they have won their biggest landslide in at least 25 years, if not more.<p><p>The Republicans are furious at the sore loser Donald Trump for causing this to happen, since he took so many Republican votes away from Schwarzenegger in many states. But it doesn't matter right? Just get your bags packed and get ready to move into the White House to become the 46th President of the United States. You can be an ass-kicker, I guarantee you!</p>`;
+    }
+    if(quickstats[0] == 538) {
+        setImage("https://www.al.com/resizer/v2/OIHFIMQSMBCYDBMJBGBSW32CPA.jpg?auth=7b4d9a83b023b03de750b70a1c05ee4f03c5ce1ec0f73fbab557a8c174ffb3bb&width=500&quality=90");
+        return `<h3>We fight like hell.</h3><p>We fight like hell! If you don't fight like hell, you're not going to have a country anymore. I know that everyone here will soon be marching over to the Capitol building to peacefully and patriotically make your voices heard.<p><p>And you have to get your people to fight. And if they don't fight, we have to primary the hell out of the ones that don't fight. You primary them. We're going to. We're going to let you know who they are. I can already tell you, frankly.<p><p>But this year, using the pretext of the China virus and the scam of mail-in ballots, Democrats attempted the most brazen and outrageous election theft and there's never been anything like this. So pure theft in American history. Everybody knows it.</p>`;
+    }
+}
 
 
 campaignTrail_temp.jet_data = [{
@@ -8679,6 +8726,81 @@ campaignTrail_temp.jet_data = [{
         "runName": "Cooper",
         "runImage": "https://i.imgur.com/h2uhPgm.png",
         "canImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Tim_Ryan_portrait.jpg/330px-Tim_Ryan_portrait.jpg"
+    },
+    "endings_enabled": true,
+    "ending_data": {
+        "1710900497983": {
+            "id": 1710900497983,
+            "variable": 0,
+            "operator": "==",
+            "value": 0,
+            "endingImage": "https://i.ebayimg.com/images/g/mYwAAOSwISVhfxz1/s-l1600.png",
+            "endingText": "<h3>You are an Idiot.</h3><p>How on earth could you screw up so bad for this to happen? Was the election stolen? No one knows. No one cares. <p><p>You Are an Idiot. Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha! You Are an Idiot. Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha! You Are an Idiot. Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha! You Are an Idiot. Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha Ha! </p>",
+            "amount": "0"
+        },
+        "1710900503826": {
+            "id": 1710900503826,
+            "variable": 0,
+            "operator": ">",
+            "value": 0,
+            "endingImage": "https://assets.mubicdn.net/images/artworks/559143/images-original.png?1686643766",
+            "endingText": "<h3>Hasta la vista, baby!</h3><p>Those were the first words in President Schwarzenegger's victory speech after he totally decimated you. It's probable that he won his home state of California too. In other words, you did worse than Michael Dukakis in 1988, showing how bad your campaign went. You are being compared to Walter Mondale, especially considering Ronald Reagan, who was also an actor and a Republican Governor of California, demolished Mondale in a landslide similar to this. <p><p>Although you were the underdog all alone, no one thought you would see a loss like this. Your political career is likely over, considering how humiliated you are, and the Democrats could be in deep trouble in 2024. </p>",
+            "amount": "0"
+        },
+        "1710900507417": {
+            "id": 1710900507417,
+            "variable": 0,
+            "operator": ">",
+            "value": 0,
+            "endingImage": "",
+            "endingText": "<h3>Sorry, Tim. This was a tough loss.</h3><p>This is a loss for the Democratic Party that they haven't seen in 30 years. While some were expecting it, the Democrats are humiliated to have lost so many states they have held for 20, 30, maybe even 50 years. It seems as President Schwarzenegger is quite popular right now, which is expected because of his response to the COVID-19 pandemic and the civil unrest occurring across the country. <p><p>As for you, your presidential ambitions are likely over, but you can possibly run for Governor or Senate in Ohio in the coming years, as you are quite young. There is still time for you to make a comeback if you so choose to, but your constituents will likely be limited to the state of Ohio. The choice is yours, Tim. </p>",
+            "amount": "112"
+        },
+        "1710900513035": {
+            "id": 1710900513035,
+            "variable": 0,
+            "operator": ">",
+            "value": 0,
+            "endingImage": "",
+            "endingText": "<h3>PRESIDENT SCHWARZENEGGER RE-ELECTED</h3><p>Although you and your supporters are very disappointed with this result, most expected the President to be re-elected. Schwarzenegger's response to the COVID-19 pandemic was quite popular, and it seems like America doesn't want to change leadership during such difficult, unprecedented times. But hey, you did better than Hillary Clinton four years ago.<p><p>As for you, you still have a lot of years left if you want to make a political comeback. Perhaps a gubernatorial or Senatorial bid in 2022 or 2026? With a wide open Democratic field in 2024, maybe you can try again? The choice is yours, Tim. </p>",
+            "amount": "199"
+        },
+        "1710900539801": {
+            "id": 1710900539801,
+            "variable": 0,
+            "operator": ">",
+            "value": 0,
+            "endingImage": "",
+            "endingText": "<h3>TIM RYAN ELECTED 46TH PRESIDENT</h3><p>This is very exciting news for you and the Democratic Party, and maybe a bit surprising as well. Your victory speech is livestreamed with over 1.5 million simultaneous viewers, and the comment sections are going nuts. Get ready to move to 1600 Pennsylvania Avenue to become the 46th President of the United States.<p><p>The Republican Party is in shambles right now due to this loss, likely caused by Donald Trump's third-party candidacy taking enough votes in the battleground states to allow you to win. Three words from President Schwarzenegger's concession speech are making headlines: \"I'll Be Back\". Some are speculating if he's gonna run again in 2024, but it doesn't matter for now right? Just don't screw anything up as President, or it could be Judgement Day for you.</p>",
+            "amount": "269"
+        },
+        "1710900540404": {
+            "id": 1710900540404,
+            "variable": 0,
+            "operator": ">",
+            "value": 0,
+            "endingImage": "",
+            "endingText": "<h3>America's got an ass-kicker!</h3><p>These were the first words in your victory speech that was livestreamed with over 1.5 million live viewers. You and your supporters are very jittery with this result, and the Republicans are distraught, and some are angry. Trump supporters are being Trump supporters. It's likely that they have cost Arnold Schwarzenegger a second term, especially with Trump's percentages in the battleground states. <p><p>The Democratic Party is ready to have you in the White House, and as long as you don't screw up, 2024 should be a sweet victory for the Democrats. But who knows? Arnold Schwarzenegger might be back to give you a rematch, and if you don't play your cards right, it could be Judgement Day for you. Best of luck to you, President Ryan. </p>",
+            "amount": "306"
+        },
+        "1710900573586": {
+            "id": 1710900573586,
+            "variable": 0,
+            "operator": ">",
+            "value": 0,
+            "endingImage": "https://vmndims.binge.com.au/api/v2/img/5ec3b84ee4b0641339cee8d4-1619489429313?location=tile&imwidth=1280",
+            "endingText": "<h3>Let's kick some ass!</h3><p>This was the most retweeted and replayed line from your victory speech, which has attracted over 1.5 million live viewers around the United States. This was a shocking defeat for the President, even more than George H.W. Bush in 1992. But nevertheless, this is very exciting news for the Democrats, as they have won their biggest landslide in at least 25 years, if not more.<p><p>The Republicans are furious at the sore loser Donald Trump for causing this to happen, since he took so many Republican votes away from Schwarzenegger in many states. But it doesn't matter right? Just get your bags packed and get ready to move into the White House to become the 46th President of the United States. You can be an ass-kicker, I guarantee you!</p>",
+            "amount": "370"
+        },
+        "1710900573796": {
+            "id": 1710900573796,
+            "variable": 0,
+            "operator": "==",
+            "value": 0,
+            "endingImage": "https://www.al.com/resizer/v2/OIHFIMQSMBCYDBMJBGBSW32CPA.jpg?auth=7b4d9a83b023b03de750b70a1c05ee4f03c5ce1ec0f73fbab557a8c174ffb3bb&width=500&quality=90",
+            "endingText": "<h3>We fight like hell.</h3><p>We fight like hell! If you don't fight like hell, you're not going to have a country anymore. I know that everyone here will soon be marching over to the Capitol building to peacefully and patriotically make your voices heard.<p><p>And you have to get your people to fight. And if they don't fight, we have to primary the hell out of the ones that don't fight. You primary them. We're going to. We're going to let you know who they are. I can already tell you, frankly.<p><p>But this year, using the pretext of the China virus and the scam of mail-in ballots, Democrats attempted the most brazen and outrageous election theft and there's never been anything like this. So pure theft in American history. Everybody knows it.</p>",
+            "amount": "538"
+        }
     }
 }
 ]
