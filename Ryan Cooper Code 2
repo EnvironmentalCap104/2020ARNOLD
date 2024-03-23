@@ -4322,7 +4322,7 @@ campaignTrail_temp.running_mate_issue_score_json = [
         "model": "campaign_trail.candidate_issue_score",
         "pk": 1045,
         "fields": {
-            "candidate": 205,
+            "candidate": 209,
             "issue": 100,
             "issue_score": 0.15
         }
@@ -4331,7 +4331,7 @@ campaignTrail_temp.running_mate_issue_score_json = [
         "model": "campaign_trail.candidate_issue_score",
         "pk": 1046,
         "fields": {
-            "candidate": 205,
+            "candidate": 209,
             "issue": 101,
             "issue_score": 0.2
         }
@@ -4340,7 +4340,7 @@ campaignTrail_temp.running_mate_issue_score_json = [
         "model": "campaign_trail.candidate_issue_score",
         "pk": 1047,
         "fields": {
-            "candidate": 205,
+            "candidate": 209,
             "issue": 102,
             "issue_score": 0.2
         }
@@ -4349,7 +4349,7 @@ campaignTrail_temp.running_mate_issue_score_json = [
         "model": "campaign_trail.candidate_issue_score",
         "pk": 1048,
         "fields": {
-            "candidate": 205,
+            "candidate": 209,
             "issue": 103,
             "issue_score": 0.3
         }
@@ -4358,7 +4358,7 @@ campaignTrail_temp.running_mate_issue_score_json = [
         "model": "campaign_trail.candidate_issue_score",
         "pk": 1049,
         "fields": {
-            "candidate": 205,
+            "candidate": 209,
             "issue": 104,
             "issue_score": 0.3
         }
@@ -8692,11 +8692,11 @@ endingPicker = (out, totv, aa, quickstats) => {
     }
     if(quickstats[0] > 199 && quickstats[0] < 269) {
         setImage("");
-        return `<h3>PRESIDENT SCHWARZENEGGER RE-ELECTED</h3><p>Although you and your supporters are very disappointed with this result, most expected the President to be re-elected. Schwarzenegger's response to the COVID-19 pandemic was quite popular, and it seems like America doesn't want to change leadership during such difficult, unprecedented times. But hey, you did better than Hillary Clinton four years ago.<p><p>As for you, you still have a lot of years left if you want to make a political comeback. Perhaps a gubernatorial or Senatorial bid in 2022 or 2026? With a wide open Democratic field in 2024, maybe you can try again? The choice is yours, Tim. </p>`;
+        return `<h3>PRESIDENT SCHWARZENEGGER RE-ELECTED</h3><p>Although you and your supporters are very disappointed with this result, most expected the President to be re-elected. Schwarzenegger's response to the COVID-19 pandemic was quite popular, and it seems like America doesn't want to change leadership during such difficult, unprecedented times. Not to mention, he is an incumbent President and if it didn't work for Bob Dole, John Kerry, or Mitt Romney, it wouldn't have been any easier for you. But hey, you did better than Hillary Clinton four years ago.<p><p>As for you, you still have a lot of years left if you want to make a political comeback. Perhaps a gubernatorial or Senatorial bid in 2022 or 2026? With a wide open Democratic field in 2024, maybe you can try again? The choice is yours, Tim. </p>`;
     }
     if(quickstats[0] > 269 && quickstats[0] < 307) {
         setImage("");
-        return `<h3>TIM RYAN ELECTED 46TH PRESIDENT</h3><p>This is very exciting news for you and the Democratic Party, and maybe a bit surprising as well. Your victory speech is livestreamed with over 1.5 million simultaneous viewers, and the comment sections are going nuts. Get ready to move to 1600 Pennsylvania Avenue to become the 46th President of the United States.<p><p>The Republican Party is in shambles right now due to this loss, likely caused by Donald Trump's third-party candidacy taking enough votes in the battleground states to allow you to win. Three words from President Schwarzenegger's concession speech are making headlines: "I'll Be Back". Some are speculating if he's gonna run again in 2024, but it doesn't matter for now right? Just don't screw anything up as President, or it could be Judgement Day for you.</p>`;
+        return `<h3>TIM RYAN ELECTED 46TH PRESIDENT</h3><p>This is very exciting news for you and the Democratic Party, and maybe a bit surprising as well. Your victory speech is livestreamed with over 1.5 million simultaneous viewers, and the comment sections are going nuts. Get ready to move to 1600 Pennsylvania Avenue to become the 46th President of the United States.<p><p>The Republican Party is in shambles right now due to this loss, likely caused by Donald Trump's third-party candidacy taking enough votes in the battleground states to allow you to win. Three words from President Schwarzenegger's concession speech are making headlines: \"I'll Be Back\". Some are speculating if he's gonna run again in 2024, but it doesn't matter for now right? Just don't screw anything up as President, or it could be Judgment Day for you.</p>`;
     }
     if(quickstats[0] > 306 && quickstats[0] < 371) {
         setImage("");
@@ -8762,7 +8762,7 @@ campaignTrail_temp.jet_data = [{
             "operator": ">",
             "value": 0,
             "endingImage": "",
-            "endingText": "<h3>PRESIDENT SCHWARZENEGGER RE-ELECTED</h3><p>Although you and your supporters are very disappointed with this result, most expected the President to be re-elected. Schwarzenegger's response to the COVID-19 pandemic was quite popular, and it seems like America doesn't want to change leadership during such difficult, unprecedented times. But hey, you did better than Hillary Clinton four years ago.<p><p>As for you, you still have a lot of years left if you want to make a political comeback. Perhaps a gubernatorial or Senatorial bid in 2022 or 2026? With a wide open Democratic field in 2024, maybe you can try again? The choice is yours, Tim. </p>",
+            "endingText": "<h3>PRESIDENT SCHWARZENEGGER RE-ELECTED</h3><p>Although you and your supporters are very disappointed with this result, most expected the President to be re-elected. Schwarzenegger's response to the COVID-19 pandemic was quite popular, and it seems like America doesn't want to change leadership during such difficult, unprecedented times. Not to mention, he is an incumbent President and if it didn't work for Bob Dole, John Kerry, or Mitt Romney, it wouldn't have been any easier for you. But hey, you did better than Hillary Clinton four years ago.<p><p>As for you, you still have a lot of years left if you want to make a political comeback. Perhaps a gubernatorial or Senatorial bid in 2022 or 2026? With a wide open Democratic field in 2024, maybe you can try again? The choice is yours, Tim. </p>",
             "amount": "199"
         },
         "1710900539801": {
@@ -8771,7 +8771,7 @@ campaignTrail_temp.jet_data = [{
             "operator": ">",
             "value": 0,
             "endingImage": "",
-            "endingText": "<h3>TIM RYAN ELECTED 46TH PRESIDENT</h3><p>This is very exciting news for you and the Democratic Party, and maybe a bit surprising as well. Your victory speech is livestreamed with over 1.5 million simultaneous viewers, and the comment sections are going nuts. Get ready to move to 1600 Pennsylvania Avenue to become the 46th President of the United States.<p><p>The Republican Party is in shambles right now due to this loss, likely caused by Donald Trump's third-party candidacy taking enough votes in the battleground states to allow you to win. Three words from President Schwarzenegger's concession speech are making headlines: \"I'll Be Back\". Some are speculating if he's gonna run again in 2024, but it doesn't matter for now right? Just don't screw anything up as President, or it could be Judgement Day for you.</p>",
+            "endingText": "<h3>TIM RYAN ELECTED 46TH PRESIDENT</h3><p>This is very exciting news for you and the Democratic Party, and maybe a bit surprising as well. Your victory speech is livestreamed with over 1.5 million simultaneous viewers, and the comment sections are going nuts. Get ready to move to 1600 Pennsylvania Avenue to become the 46th President of the United States.<p><p>The Republican Party is in shambles right now due to this loss, likely caused by Donald Trump's third-party candidacy taking enough votes in the battleground states to allow you to win. Three words from President Schwarzenegger's concession speech are making headlines: \"I'll Be Back\". Some are speculating if he's gonna run again in 2024, but it doesn't matter for now right? Just don't screw anything up as President, or it could be Judgment Day for you.</p>",
             "amount": "269"
         },
         "1710900540404": {
