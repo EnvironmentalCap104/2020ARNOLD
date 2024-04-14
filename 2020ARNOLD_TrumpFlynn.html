@@ -616,7 +616,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5091,
         "fields": {
             "question": 1027,
-            "description": "I didn't know the woman, and my condolences go out to her family during such a sad time for them. I won't be commenting on a replacement, like it or not. It was her wish, after all."
+            "description": "I didn't know the woman, but my condolences go out to her family during such a sad time for them. I won't be commenting on a replacement, like it or not. It was her wish, after all."
         }
     },
     {
@@ -4282,7 +4282,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "model": "campaign_trail.candidate_issue_score",
         "pk": 1015,
         "fields": {
-            "candidate": 203,
+            "candidate": 301,
             "issue": 100,
             "issue_score": 0.7
         }
@@ -4291,7 +4291,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "model": "campaign_trail.candidate_issue_score",
         "pk": 1016,
         "fields": {
-            "candidate": 203,
+            "candidate": 301,
             "issue": 101,
             "issue_score": 0.7
         }
@@ -4300,7 +4300,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "model": "campaign_trail.candidate_issue_score",
         "pk": 1017,
         "fields": {
-            "candidate": 203,
+            "candidate": 301,
             "issue": 102,
             "issue_score": 0.7
         }
@@ -4309,7 +4309,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "model": "campaign_trail.candidate_issue_score",
         "pk": 1018,
         "fields": {
-            "candidate": 203,
+            "candidate": 301,
             "issue": 103,
             "issue_score": 0.7
         }
@@ -4318,7 +4318,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "model": "campaign_trail.candidate_issue_score",
         "pk": 1019,
         "fields": {
-            "candidate": 203,
+            "candidate": 301,
             "issue": 104,
             "issue_score": 0.7
         }
@@ -8395,6 +8395,55 @@ campaignTrail_temp.running_mate_image_url = "https://cdn.britannica.com/26/20162
 campaignTrail_temp.candidate_last_name = "Trump";
 campaignTrail_temp.running_mate_last_name = "Flynn";
 
+campaignTrail_temp.multiple_endings = true;
+endingPicker = (out, totv, aa, quickstats) => {
+
+    function setImage(url) {
+        if(url == '' || url == null) return;
+        let interval = setInterval(function () {
+            img = document.getElementsByClassName("person_image")[0];
+            if (img != null) {
+                img.src = url;
+                clearInterval(interval);
+            }
+        }, 50);
+    }
+
+    if(quickstats[0] == 0 && quickstats[1] < 10 && aa[0].electoral_votes > 269) {
+        setImage("https://i.ytimg.com/vi/mkA2_nijiyE/sddefault.jpg");
+        return `<h3>Trump Won and You Know It!</h3><p>Trump won and you know it<p>Trump won and you know it<p>The fake news will never show it<p>'Cause it's true<p>Trump won and you know it<p><p>We got dead people votin' Dropboxes and Dominion<p>And facts are facts, it's not just my opinion<p>The Establishment knows how to steal<p>Come on man, here's the deal<p><p>Trump won and you know it<p>Trump won and you know it<p>The fake news will never show it<p>'Cause it's true<p>Trump won and you know it </p>`;
+    }
+
+    if(quickstats[0] == 0 && quickstats[1] < 15 && aa[0].electoral_votes > 269) {
+        setImage("https://image.cnbcfm.com/api/v1/image/106823110-1610469786347-gettyimages-1230476983-horse-trumpsup210106_npiO7.jpeg?v=1641421093&w=929&h=523&vtcrop=y");
+        return `<h3>We fight like hell!</h3><p>We fight like hell! If you don't fight like hell, you're not going to have a country anymore. I know that everyone here will soon be marching over to the Capitol building to peacefully and patriotically make your voices heard.<p><p>And you have to get your people to fight. And if they don't fight, we have to primary the hell out of the ones that don't fight. You primary them. We're going to. We're going to let you know who they are. I can already tell you, frankly.<p><p>But this year, using the pretext of the China virus and the scam of mail-in ballots, our crooked politicians attempted the most brazen and outrageous election theft and there's never been anything like this. So pure theft in American history. Everybody knows it.</p>`;
+    }
+
+    if(quickstats[0] > 0 && aa[0].electoral_votes < 270) {
+        setImage("https://static.politico.com/46/a0/95efe66243ea82c9aaadbee5bd73/gettyimages-1230451715-c.jpg");
+        return `<h3>Wow! You deadlocked the election. </h3><p>Not only are you the first third-party candidate to win a state's electoral votes since George Wallace in 1968, but you actually sent the election to the House of Representatives for the first time since 1824. It will be hard to know where your campaign's fate will go from here, even though the Republicans are likely favored at this point, considering they have more state legislatures. Maybe you strike a deal with someone to get their electoral votes to win the presidency? <p><p>In any situation though, your campaign did make history, and if 2020 couldn't be a crazier year, the election has made it crazier indeed. Most people call this election's outcome even crazier than 2000's 537 vote margin in Florida. Best of luck to you, Mr. Trump. </p>`;
+    }
+
+    if(quickstats[0] > 0 && aa[0].electoral_votes > 269 && aa[0].candidate == 200) {
+        setImage("https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Arnold_Schwarzenegger_by_Gage_Skidmore_4.jpg/330px-Arnold_Schwarzenegger_by_Gage_Skidmore_4.jpg");
+        return `<h3>Historic, but unsuccessful.</h3><p>You have become the first third-party candidate to win electoral votes since George Wallace's campaign in 1968. While you were unsuccessful in winning the presidency, or even deadlocking the Electoral College, your campaign did certainly make history in a way that Mike Huckabee's was unsuccessful in four years ago.<p><p>You have lost three times in a row to Arnold Schwarzenegger, who was once one of your friends, and you will not be able to run against him again as he's term-limited in 2024. But hey, maybe you can help your faction of the GOP in the 2022 midterms, and run again in 2024. It's up to you at this point Donald, but expect your support to drop between now and then.</p>`;
+    }
+
+    if(quickstats[0] > 0 && aa[0].electoral_votes > 269 && aa[0].candidate == 201) {
+        setImage("https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Tim_Ryan_portrait.jpg/330px-Tim_Ryan_portrait.jpg");
+        return `<h3>Historic, but unsuccessful.</h3><p>You have become the first third-party candidate to win electoral votes since George Wallace's campaign in 1968. While you were unsuccessful in winning the presidency, or even deadlocking the Electoral College, your campaign did certainly make history in a way that Mike Huckabee's was unsuccessful in four years ago.<p><p>Tim Ryan has won the presidency, so at least you didn't lose to Arnold Schwarzenegger for the third time. If Ryan isn't a popular president, you can help your faction of the GOP in the 2022 midterms, or possibly run again in 2024. It's up to you at this point Donald, but expect your support to drop between now and then.</p>`;
+    }
+
+    if(quickstats[0] > 269 && quickstats[0] < 538) {
+        setImage("https://upload.wikimedia.org/wikipedia/commons/7/70/Donald_Trump_October_2020.jpg");
+        return `<h3>What the fuck?</h3><p>Those were the first words that came out of Rachel Maddow's mouth after you were projected the winner of the 2020 presidential election. While your supporters were expecting you to win a state, and as much as they said you would win big league, most of them didn't think that you would actually become the next President of the United States. This is likely the death of the two-party system as we know it, as you are the first third-party candidate to win the White House since the early 19th century. Maybe you'll switch back to the Republican Party, and restore the two-party system. <p><p>Arnold Schwarzenegger and Tim Ryan are too stunned to even concede to you, but Arnold Schwarzenegger makes a post saying "I'll Be Back", sparking speculations that he will run again in 2024. But for now, get ready to become the 46th President of the United States, even though Congress will be strongly against you. </p>`;
+    }
+
+    if(quickstats[0] == 538) {
+        setImage("https://upload.wikimedia.org/wikipedia/en/3/32/Trump_The_Game_box_cover.jpg");
+        return `<h3>Congratulations! You have unlocked the secret ending.</h3><p>After waking up from his dream of being at Mar-a-Lago celebrating a 538 electoral vote landslide, Donald Trump screams in pain as he knows he didn't win at all. <p><p>Right as he is about to make his tweet, he turns to Melania and says "You know what? I should've ran against George W. Bush in 2004. I would have won big league." <p><p>What if he did? It's up to you, the player, to find out on June 16, 2024, when I, Environmental_Cap104, release my 10th TNCT mod, 2004: Bush, You're Fired. </p>`;
+    }
+}
 
 
 campaignTrail_temp.jet_data = [{
@@ -8418,3 +8467,11 @@ campaignTrail_temp.jet_data = [{
 }
 ]
 
+campaignTrail_temp.cyoa = true;
+
+cyoAdventure = function (a) {
+    ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
+    if(ans == 5084){
+         campaignTrail_temp.question_number = 24;
+}
+}
