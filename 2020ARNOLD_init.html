@@ -1,3 +1,28 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
@@ -427,31 +452,6 @@ campaignTrail_temp.running_mate_json = [
 
 campaignTrail_temp.credits = "Environmental_Cap104"
 
-campaignTrail_temp.global_parameter_json = [
-    {
-        "model": "campaign_trail.global_parameter",
-        "pk": 1,
-        "fields": {
-            "vote_variable": 1.125,
-            "max_swing": 0.12,
-            "start_point": 0.94,
-            "candidate_issue_weight": 10,
-            "running_mate_issue_weight": 3,
-            "issue_stance_1_max": -0.71,
-            "issue_stance_2_max": -0.3,
-            "issue_stance_3_max": -0.125,
-            "issue_stance_4_max": 0.125,
-            "issue_stance_5_max": 0.3,
-            "issue_stance_6_max": 0.71,
-            "global_variance": 0.01,
-            "state_variance": 0.005,
-            "question_count": 25,
-            "default_map_color_hex": "#C9C9C9",
-            "no_state_map_color_hex": "#999999"
-        }
-    }
-]
-
 campaignTrail_temp.opponents_default_json = [
     {
         "election": 9,
@@ -479,15 +479,15 @@ campaignTrail_temp.opponents_weighted_json = [
 campaignTrail_temp.temp_election_list = [
     {
         "id": 9,
-        "year": 2000,
+        "year": 2020,
         "is_premium": 0,
         "display_year": "2020ARNOLD"
     }
 ]
 
 jet_data = {
-    "headerColor": "#700016",
-    "windowColor": "#9000ad",
+    "headerColor": "#800000",
+    "windowColor": "#800000",
     "containerColor": "#000dbd",
     "innerWindowColor": "#a30000",
     "bannerImageUrl": "https://matrix.redditspace.com/_matrix/media/r0/download/reddit.com/c1hkhki64iic1",
@@ -500,9 +500,9 @@ jet_data = {
 
 
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#800000";
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#9000ad";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#800000";
 
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
 
